@@ -3,21 +3,19 @@
 layout: home
 
 hero:
-  name: "FT-ui"
-  text: "组件库学习"
-  tagline: My great project tagline
+  name: "fake-ui"
+  text: "渐进式的学习如何构建vue3组件库"
+  tagline: 千里之行，始于足下
   actions:
     - theme: brand
       text: 组件库
       link: /components/index
 
-
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 渐进式学习
+    details: 从下而上的逐步构建一个组件库。
+  - title: 啰嗦且详细
+    details: 涉及到的知识点都会不厌其烦的写下来。
+  - title: 学习用的，欢迎共建
+    details: 我也是第一次，有意见和兴趣的欢迎来搞事。
 ---
-

@@ -1,27 +1,22 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/FT-ui/",
   title: "FT-ui",
-  description: "组件库学习",
+  description: "fake-ui vue3 progressive ui component study",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '组件', link: '/components/index' }
+      { text: "主页", link: "/" },
+      { text: "组件", link: "/components/index" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: '组件', link: '/components/index' },
-        ]
-      }
+        text: "组件",
+        items: [{ text: "Hello World", link: "/components/hello-world" }],
+      },
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+  },
+});

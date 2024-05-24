@@ -1,2 +1,3 @@
 // components/index.ts
-export * from './components';
+// @ts-ignore
+export * from "./components";
